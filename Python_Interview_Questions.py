@@ -119,21 +119,27 @@ else:
     print('Draw')
 
 
+# ### Que 4: Print this pattern in one line 
+# 
+# 1
+# 
+# 22
+# 
+# 333
+# 
+# 4444
+# 
+# 55555
+# 
+# 666666
+# 
+
 # In[42]:
 
 
 n = int(input())
 for i in range(1,n):
     print(str(i)*i)
-
-
-# In[48]:
-
-
-i = 4
-num = i
-row_value = num * (10 ** (i - 1))
-print(row_value)
 
 
 # In[50]:
@@ -145,19 +151,15 @@ for i in range(1, n):
     print(i * (10 ** i - 1) // 9)
 
 
-# In[ ]:
-
-
-
-
-
-# In[52]:
-
-
-S  = str(input())
-S = S .lower()
-print(S)
-
+# ### QUE 5:- Company LOGO 
+# 
+# Given a String 'S'
+# 
+# 1) Print the three most common characters along with their occurrence count.
+# 
+# 2) Sort in descending order of occurrence count.
+# 
+# 3) If the occurrence count is the same, sort the characters in alphabetical order.
 
 # In[59]:
 
